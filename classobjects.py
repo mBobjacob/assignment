@@ -95,11 +95,11 @@ bank_accounts5 = Bank("stabic", "Fiona", "Gashom", "savings", "29 Oct", 94000000
 bank_accounts6 = Bank("Diamond trust bank", "Museveni", "Tubuhaburwa", "salary", "22 May", 4000000, 2345643232365)
 
 flights1 = Flight("Emirate", "Entebbe", "11:45", "Paris", "20:15", 1200, "12 Sep")
-flights2 = Flight("Ethihad", "London", "121:45", "Prague", "23:25", 1200, "12 Sep")
-flights3 = Flight("Fly Dubai", "Dubai", "15:55", "London", "22:35", 1200, "12 Sep")
-flights4 = Flight("Kenya Airways", "Paris", "13:45", "Nairobi", "14:40", 1200, "12 Sep")
-flights5 = Flight("Fly Dubai", "Dubai", "09:15", "Kampala", "16:15", 1200, "12 Sep")
-flights6 = Flight("Qatar", "Prague", "12:45", "Dubai", "4:15", 1200, "12 Sep")
+flights2 = Flight("Ethihad", "London", "121:45", "Prague", "23:25", 300, "12 Sep")
+flights3 = Flight("Fly Dubai", "Dubai", "15:55", "London", "22:35", 800, "12 Sep")
+flights4 = Flight("Kenya Airways", "Paris", "13:45", "Nairobi", "14:40", 7500, "12 Sep")
+flights5 = Flight("Fly Dubai", "Dubai", "09:15", "Kampala", "16:15", 400, "12 Sep")
+flights6 = Flight("Qatar", "Prague", "12:45", "Dubai", "4:15", 600, "12 Sep")
 
 football_teams1 = Team("Arsenal", "England", "Premier League", "Gunners", 1802, "Emirates", 27)
 football_teams2 = Team("Chelsea", "England", "Premier League", "blues", 1843, "Stanford Bridge", 45)
@@ -131,4 +131,8 @@ farm6 = Farm("Soko farm", "Fabian", "+255612765456", "Mwanza", "Tanzania", "Plan
 
 # This how we can print data from the respective classes
 print(bank_accounts2.acc_type)
+print(farm6.farm_location)
+print(flights3.cost)
+print(employees4.department)
+print(students5.email)
 
